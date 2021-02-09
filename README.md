@@ -6,11 +6,11 @@ Optionally you can supply a user, password and additional arguments to sendEmail
 
 Examples:
 
-- docker run ghcr.io/nirmata/sendemail junkmail@silbory junkmail@silbory.com "Hey" "Important infomation!" smtp.silbory.com
+- docker run ghcr.io/nirmata/sendemail fooo@nirmata.com junkmail@nirmata.com "Hey" "Important infomation!" smtp.nirmata.com
 
-- docker run ghcr.io/nirmata/sendemail junkmail@silbory junkmail@silbory.com "Hey" "Important infomation!" smtp.siblory sam '$vaqqpgq!znnnn'
+- docker run ghcr.io/nirmata/sendemail foo@nirmata.com junkmail@nirmata.com "Hey" "Important infomation!" smtp.nirmata.com sam.silbory '$vaqqpgq!znnnn'
 
-- docker run ghcr.io/nirmata/sendemail junkmail@silbory junkmail@silbory.com "Hey" "Important infomation!" smtp.gmail.com:587 sam.silbory '$vaqmqpgq!znnnn' 
+- docker run ghcr.io/nirmata/sendemail foo@nirmata.com junkmail@nirmata.com "Hey" "Important infomation!" smtp.gmail.com:587 sam '$vaqmqpgq!znnnn' 
 
 Note that to use gmail in the above example you need to create an app password for gmail.
 
